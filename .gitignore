@@ -1,0 +1,18 @@
+# VS Code (로컬 설정은 저장소에 포함하지 않음)
+.vscode/
+*.code-workspace
+
+# Srpg_Project 로컬 전용 (저장소에는 .py만 올림)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+**/saves/
+**/effect_sound/
+
+# 원격에는 *.py 와 이 파일만 포함
+*
+!*/
+!**/*.py
+!.gitignore
+!SRPG.spec
